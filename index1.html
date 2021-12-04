@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+
+        body {
+            background-color: rgb(88, 173, 212);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12pt;
+        }
+
+        div {
+            background-color: white;
+            height: fit-content;            
+        }
+
+        .grid-conteiner {
+            display: inline-grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            grid-gap: 25px;
+            background-color: inherit;
+            margin: 35px;
+        }
+
+        .item-1, .item-2, .item-3 {
+            background-color: rgb(88, 173, 212);
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            grid-row-gap: 25px;
+        }
+
+        .text {
+            padding: 0 20px 0 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="grid-conteiner">
+
+        <div class="item-1">
+            <div>
+                <img src="icons_hw_module_8_9/350x150.png" alt="350x150">
+                <div class="text">
+                    <h4>Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x220.png" alt="350x220">            
+                <div class="text">
+                    <p>Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x100.png" alt="350x100">
+                <div class="text">
+                    <h4>Title</h4>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="item-2">
+            <div>
+                <img src="icons_hw_module_8_9/350x100.png" alt="350x100">
+                <div class="text">
+                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x230.png" alt="350x230">
+                <div class="text">
+                    <h4>The title</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x150.png" alt="350x150">
+                <div class="text">
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="item-3">
+            <div>
+                <img src="icons_hw_module_8_9/350x100.png" alt="350x100">
+                <div class="text">
+                    <h4>A little longer title</h4>
+                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x350.png" alt="350x350">
+                <div class="text">
+                    <h4>A title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="icons_hw_module_8_9/350x150.png" alt="350x150">
+                <div class="text">
+                    <p>The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        
